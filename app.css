@@ -1,0 +1,56 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-family: Raleway, san-serif; 
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+
+}
+/*.main h2 {
+  display: flex;
+  flex-grow: 1;
+  font-weight: bold;
+}*/
+article p {
+  display: flex;
+  
+  /*flex-grow: 2;*/
+  font-size: 150%;
+  font-weight: bold;
+
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+.main article {
+  display: flex;
+  flex-direction: column;
+
+}
+.one {
+  display: flex;
+  order:1;
+}
+.two {
+  display: flex;
+  order: 2;
+
+}
+article h2 {
+  display: flex;
+  flex-grow: 1;
+  font-weight: bold;
+}
+img {
+  display: flex;
+  width: 90%;
+}
