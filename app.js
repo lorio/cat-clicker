@@ -13,7 +13,7 @@ counter2.textContent = `${name} has ${likes2} likes.`;
 
 /*counter.textContent = '1';*/
 class Cat {
-  constructor(name = 'lou', likes = 0, card = 'card1') {
+  constructor(name, likes, card ,pic) {
     this.name = 'name';
     this.likes = 0;
     this.card = 'card';
@@ -31,8 +31,8 @@ class Cat {
   }
 }
 
-let cat1 = new Cat('lou', 0, 'card1', 'img/cat.jpg' );
-let cat2 = new Cat('lily', 0, 'card2', 'img/cat2.jpg');
+let cat1 = new Cat('lou', 0, 'card1', 'pic' );
+let cat2 = new Cat('lily', 0, 'card2', 'pic');
 cat1.getCaption();
 cat1.buildProfile();
 cat2.getCaption();
